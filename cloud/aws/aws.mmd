@@ -1,0 +1,21 @@
+flowchart LR
+    A(AWS)
+    ACC(Account management)
+    IAM[IAM: Identity & access management]
+    SERV[Servicies]
+    REG([Regions & zones])
+    BILLING([Billing information])
+
+    A --> ACC
+    A --provides--> SERV
+    SERV --physicaly located at--> REG
+    SERV --> BILLING --> BILLING1(check the cost of a service)
+    
+    ACC --> ROOT(Root account)
+    ACC --> IAM
+
+    IAM --> B1(Define policies)
+    IAM --> B2(Access keys)
+    IAM --> B3(Roles for servicies)
+    IAM --> B4(Security tools)
+    
