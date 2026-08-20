@@ -1,0 +1,697 @@
+<mxfile host="app.diagrams.net" modified="2026-08-20T00:00:00.000Z" agent="opencode" version="24.0.0">
+    <diagram id="NVPV1cVVgKQkQxAHIwOc" name="Infografia">
+        <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1890" pageHeight="1357" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#90A4AE;strokeWidth=2;arcSize=3;shadow=1;" vertex="1" parent="1">
+                <mxGeometry x="20" y="20" width="1850" height="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="boxt" value="Linux Admin" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fillColor=#37474F;strokeColor=none;" vertex="1" parent="box">
+                <mxGeometry x="0" y="0" width="1850" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="b0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="box">
+                <mxGeometry x="20" y="64" width="1810" height="294" as="geometry"/>
+                </mxCell>
+                <mxCell id="bt0" value="IAM &amp; Security" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1565C0;fillColor=none;strokeColor=none;spacingLeft=4;" vertex="1" parent="b0">
+                <mxGeometry x="0" y="0" width="1810" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="10" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_0" value="System information" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_0" value="&lt;b&gt;uname&lt;/b&gt; — Print kernel name, version and architecture" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_1" value="&lt;b&gt;hostname&lt;/b&gt; — Show or set the hostname" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_2" value="&lt;b&gt;uptime&lt;/b&gt; — Show how long the system has been running and load average" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_3" value="&lt;b&gt;date&lt;/b&gt; — Show or set the system date and time" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_4" value="&lt;b&gt;timedatectl&lt;/b&gt; — Show and manage time, date and timezone" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="122" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_5" value="&lt;b&gt;arch&lt;/b&gt; — Print the machine architecture" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="152" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_0_6" value="&lt;b&gt;lsb_release / cat /etc/os-release&lt;/b&gt; — Show distribution name and version" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_0">
+                <mxGeometry x="0" y="167" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="264" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_1" value="System security" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_0" value="&lt;b&gt;sudo&lt;/b&gt; — Execute a command with superuser privileges" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_1" value="&lt;b&gt;su&lt;/b&gt; — Switch user (defaults to root)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_2" value="&lt;b&gt;sudo -l&lt;/b&gt; — List the privileges the user can run with sudo" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_3" value="&lt;b&gt;visudo&lt;/b&gt; — Safely edit the sudoers file" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_4" value="&lt;b&gt;last&lt;/b&gt; — Show a list of last logged in users" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_5" value="&lt;b&gt;who&lt;/b&gt; — Show who is logged on the system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_6" value="&lt;b&gt;w&lt;/b&gt; — Show who is logged on and what they are doing" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="152" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_7" value="&lt;b&gt;ssh&lt;/b&gt; — Secure shell: connect to a remote system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_1_8" value="&lt;b&gt;ufw&lt;/b&gt; — Manage the firewall (uncomplicated firewall)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_1">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="518" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_2" value="Users" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_0" value="&lt;b&gt;adduser / useradd&lt;/b&gt; — Add a user" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_1" value="&lt;b&gt;usermod&lt;/b&gt; — Modify a user account" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_2" value="&lt;b&gt;deluser / userdel&lt;/b&gt; — Delete a user" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_3" value="&lt;b&gt;passwd&lt;/b&gt; — Change the user's password" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_4" value="&lt;b&gt;chage&lt;/b&gt; — Change user password expiry information" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_5" value="&lt;b&gt;id&lt;/b&gt; — Show the UID and GID of a user" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_2_6" value="&lt;b&gt;whoami&lt;/b&gt; — Show the current logged-in user" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_2">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="772" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_3" value="Groups" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_0" value="&lt;b&gt;addgroup / groupadd&lt;/b&gt; — Add a group" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_1" value="&lt;b&gt;delgroup / groupdel&lt;/b&gt; — Delete a group" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_2" value="&lt;b&gt;groupmod&lt;/b&gt; — Modify a group (name, GID)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_3" value="&lt;b&gt;gpasswd&lt;/b&gt; — Manage group membership and group password" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_4" value="&lt;b&gt;groups&lt;/b&gt; — Show the groups of the current user" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_3_5" value="&lt;b&gt;getent group&lt;/b&gt; — Query the group database" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_3">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="1026" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_5" value="Hardware status" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_5">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_5_0" value="&lt;b&gt;free&lt;/b&gt; — Show memory usage (RAM and swap)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_5">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_5_1" value="&lt;b&gt;sensors&lt;/b&gt; — Show temperatures, voltages and fan speeds (lm-sensors)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_5">
+                <mxGeometry x="0" y="47" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_5_2" value="&lt;b&gt;smartctl&lt;/b&gt; — Check disk health (SMART data)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_5">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_5_3" value="&lt;b&gt;hddtemp&lt;/b&gt; — Show disk temperature" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_5">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="1280" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_6" value="Hardware information" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_0" value="&lt;b&gt;lscpu&lt;/b&gt; — Show CPU information" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_1" value="&lt;b&gt;lspci&lt;/b&gt; — List PCI devices" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_2" value="&lt;b&gt;lsusb&lt;/b&gt; — List USB devices" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_3" value="&lt;b&gt;lsblk&lt;/b&gt; — List block devices (disks and partitions)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_4" value="&lt;b&gt;dmidecode&lt;/b&gt; — Dump hardware information (BIOS, memory, etc.)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="107" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_6_5" value="&lt;b&gt;lshw&lt;/b&gt; — List hardware details" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_6">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c0_7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1565C0;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b0">
+                <mxGeometry x="1534" y="36" width="240" height="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="h0_7" value="sysstat" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1565C0;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_7_0" value="&lt;b&gt;mpstat&lt;/b&gt; — Show CPU usage per processor (and per core)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_7_1" value="&lt;b&gt;iostat&lt;/b&gt; — Show CPU and disk I/O statistics" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_7_2" value="&lt;b&gt;pidstat&lt;/b&gt; — Show per-process performance statistics" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_7_3" value="&lt;b&gt;sar&lt;/b&gt; — Collect, report or replay system activity data" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="107" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r0_7_4" value="&lt;b&gt;sadf&lt;/b&gt; — Export sar data in other formats (CSV, XML, ...)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c0_7">
+                <mxGeometry x="0" y="137" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="b1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="box">
+                <mxGeometry x="147" y="376" width="260" height="474" as="geometry"/>
+                </mxCell>
+                <mxCell id="bt1" value="Networking" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#2E7D32;fillColor=none;strokeColor=none;spacingLeft=4;" vertex="1" parent="b1">
+                <mxGeometry x="0" y="0" width="260" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="c1_8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2E7D32;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b1">
+                <mxGeometry x="10" y="36" width="240" height="293" as="geometry"/>
+                </mxCell>
+                <mxCell id="h1_8" value="Network" style="text;html=1;align=center;verticalAlign=middle;fillColor=#2E7D32;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_0" value="&lt;b&gt;ip&lt;/b&gt; — Show/manage interfaces, addresses and routes" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_1" value="&lt;b&gt;ifconfig&lt;/b&gt; — Show or configure network interfaces" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="62" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_2" value="&lt;b&gt;ping&lt;/b&gt; — Test connectivity to a host" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_3" value="&lt;b&gt;traceroute&lt;/b&gt; — Show the route packets take to a host" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="107" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_4" value="&lt;b&gt;ss&lt;/b&gt; — Show socket statistics (open ports and connections)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="137" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_5" value="&lt;b&gt;netstat&lt;/b&gt; — Show network connections, routing tables and interfaces" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="167" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_6" value="&lt;b&gt;dig / nslookup&lt;/b&gt; — Query DNS records" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="197" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_7" value="&lt;b&gt;curl&lt;/b&gt; — Transfer data from/to a URL" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="212" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_8" value="&lt;b&gt;wget&lt;/b&gt; — Download files from a URL" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="227" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_9" value="&lt;b&gt;ethtool&lt;/b&gt; — Show/configure network device settings" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="242" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1_8_10" value="&lt;b&gt;nmap&lt;/b&gt; — Network scanner (hosts and open ports)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c1_8">
+                <mxGeometry x="0" y="272" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="b2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#6A1B9A;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="box">
+                <mxGeometry x="20" y="868" width="1022" height="429" as="geometry"/>
+                </mxCell>
+                <mxCell id="bt2" value="Filesystem" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#6A1B9A;fillColor=none;strokeColor=none;spacingLeft=4;" vertex="1" parent="b2">
+                <mxGeometry x="0" y="0" width="1022" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2_12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6A1B9A;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b2">
+                <mxGeometry x="10" y="36" width="240" height="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2_12" value="File operations" style="text;html=1;align=center;verticalAlign=middle;fillColor=#6A1B9A;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_0" value="&lt;b&gt;ls&lt;/b&gt; — List files and directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_1" value="&lt;b&gt;pwd&lt;/b&gt; — Show the current directory" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_2" value="&lt;b&gt;cd&lt;/b&gt; — Change directory" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_3" value="&lt;b&gt;mkdir&lt;/b&gt; — Create directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_4" value="&lt;b&gt;rmdir&lt;/b&gt; — Remove empty directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_5" value="&lt;b&gt;touch&lt;/b&gt; — Create an empty file or update timestamps" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="107" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_6" value="&lt;b&gt;cp&lt;/b&gt; — Copy files or directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_7" value="&lt;b&gt;mv&lt;/b&gt; — Move or rename files" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="152" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_8" value="&lt;b&gt;rm&lt;/b&gt; — Delete files or directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="167" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_9" value="&lt;b&gt;ln&lt;/b&gt; — Create links (hard, or symbolic with `-s`)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_10" value="&lt;b&gt;find&lt;/b&gt; — Search files by name, type, size, etc." style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="212" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_11" value="&lt;b&gt;tree&lt;/b&gt; — Show the directory tree" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="227" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_12" value="&lt;b&gt;stat&lt;/b&gt; — Show detailed file information" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="242" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_12_13" value="&lt;b&gt;file&lt;/b&gt; — Show the file type" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_12">
+                <mxGeometry x="0" y="257" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2_13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6A1B9A;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b2">
+                <mxGeometry x="264" y="36" width="240" height="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2_13" value="Permissions &amp; ownership" style="text;html=1;align=center;verticalAlign=middle;fillColor=#6A1B9A;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c2_13">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_13_0" value="&lt;b&gt;chmod&lt;/b&gt; — Change file permissions" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_13">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_13_1" value="&lt;b&gt;chown&lt;/b&gt; — Change file owner and group" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_13">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_13_2" value="&lt;b&gt;chgrp&lt;/b&gt; — Change file group" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_13">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2_14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6A1B9A;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b2">
+                <mxGeometry x="518" y="36" width="240" height="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2_14" value="Storage &amp; disk management" style="text;html=1;align=center;verticalAlign=middle;fillColor=#6A1B9A;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_0" value="&lt;b&gt;df&lt;/b&gt; — Show disk space usage of filesystems" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_1" value="&lt;b&gt;du&lt;/b&gt; — Show disk usage of files and directories" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_2" value="&lt;b&gt;mount / umount&lt;/b&gt; — Mount or unmount filesystems" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_3" value="&lt;b&gt;fdisk&lt;/b&gt; — Partition a disk" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_4" value="&lt;b&gt;mkfs&lt;/b&gt; — Create a filesystem on a partition" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_5" value="&lt;b&gt;fsck&lt;/b&gt; — Check and repair a filesystem" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_6" value="&lt;b&gt;blkid&lt;/b&gt; — Show block device attributes (UUID, label)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="122" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_7" value="&lt;b&gt;dd&lt;/b&gt; — Low-level copy (e.g. disk images)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="152" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_14_8" value="&lt;b&gt;sync&lt;/b&gt; — Flush filesystem buffers to disk" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_14">
+                <mxGeometry x="0" y="167" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2_15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6A1B9A;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b2">
+                <mxGeometry x="772" y="36" width="240" height="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="h2_15" value="Archiving &amp; transfer" style="text;html=1;align=center;verticalAlign=middle;fillColor=#6A1B9A;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_15_0" value="&lt;b&gt;tar&lt;/b&gt; — Create or extract archives" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_15_1" value="&lt;b&gt;rsync&lt;/b&gt; — Sync files locally or remotely" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_15_2" value="&lt;b&gt;scp&lt;/b&gt; — Copy files over SSH" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="62" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_15_3" value="&lt;b&gt;gzip / gunzip&lt;/b&gt; — Compress / decompress files" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2_15_4" value="&lt;b&gt;zip / unzip&lt;/b&gt; — Compress / extract zip archives" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c2_15">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="b3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#1A237E;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="box">
+                <mxGeometry x="427" y="376" width="1276" height="474" as="geometry"/>
+                </mxCell>
+                <mxCell id="bt3" value="Processes &amp; daemons" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1A237E;fillColor=none;strokeColor=none;spacingLeft=4;" vertex="1" parent="b3">
+                <mxGeometry x="0" y="0" width="1276" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3_4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A237E;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b3">
+                <mxGeometry x="10" y="36" width="240" height="428" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3_4" value="Processes" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1A237E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_0" value="&lt;b&gt;ps&lt;/b&gt; — List running processes (snapshot)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_1" value="&lt;b&gt;top / htop&lt;/b&gt; — Show processes in real time (`htop` if installed)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="47" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_2" value="&lt;b&gt;pgrep&lt;/b&gt; — Find processes by name" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_3" value="&lt;b&gt;kill&lt;/b&gt; — Send a signal to a process (default TERM)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_4" value="&lt;b&gt;pkill&lt;/b&gt; — Kill processes by name" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_5" value="&lt;b&gt;killall&lt;/b&gt; — Kill all processes with a given name" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="137" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_6" value="&lt;b&gt;nice&lt;/b&gt; — Run a process with a specific priority" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="167" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_7" value="&lt;b&gt;renice&lt;/b&gt; — Change the priority of a running process" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_8" value="&lt;b&gt;nohup&lt;/b&gt; — Run a process that keeps running after logout" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_9" value="&lt;b&gt;bg / fg&lt;/b&gt; — Send a job to background / bring it to foreground" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="242" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_10" value="&lt;b&gt;jobs&lt;/b&gt; — List background jobs of the current shell" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="272" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_11" value="&lt;b&gt;ulimit&lt;/b&gt; — Show or set resource limits of the shell (open files `-n`, processes `-u`)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="302" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_12" value="&lt;b&gt;lsof&lt;/b&gt; — List open files / file descriptors, per process (`-p &lt;pid&gt;`)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="332" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_13" value="&lt;b&gt;fuser&lt;/b&gt; — Identify processes using a file or directory" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="362" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_4_14" value="&lt;b&gt;prlimit&lt;/b&gt; — Get or set resource limits of a running process" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_4">
+                <mxGeometry x="0" y="392" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3_9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A237E;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b3">
+                <mxGeometry x="264" y="36" width="240" height="428" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3_9" value="System managed services (systemd)" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1A237E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_0" value="&lt;b&gt;systemctl&lt;/b&gt; — Manage systemd services and the system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_1" value="&lt;b&gt;systemctl start/stop/restart &lt;svc&gt;&lt;/b&gt; — Start, stop or restart a service" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="62" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_2" value="&lt;b&gt;systemctl enable/disable &lt;svc&gt;&lt;/b&gt; — Enable or disable a service at boot" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_3" value="&lt;b&gt;systemctl status &lt;svc&gt;&lt;/b&gt; — Show the status of a service" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="122" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_4" value="&lt;b&gt;systemctl list-units&lt;/b&gt; — List loaded units (services, sockets, ...)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="152" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_5" value="&lt;b&gt;systemctl list-timers&lt;/b&gt; — List scheduled timers" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="182" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_6" value="&lt;b&gt;systemctl --failed&lt;/b&gt; — List failed units" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="197" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_7" value="&lt;b&gt;systemctl mask/unmask &lt;svc&gt;&lt;/b&gt; — Fully block or unblock a unit" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_8" value="&lt;b&gt;systemd-analyze&lt;/b&gt; — Analyze system boot performance" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="242" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_9" value="&lt;b&gt;shutdown&lt;/b&gt; — Shut down or restart the system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="272" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_10" value="&lt;b&gt;reboot&lt;/b&gt; — Reboot the system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="287" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_9_11" value="&lt;b&gt;poweroff&lt;/b&gt; — Power off the system" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_9">
+                <mxGeometry x="0" y="302" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3_10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A237E;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b3">
+                <mxGeometry x="518" y="36" width="240" height="428" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3_10" value="Docker" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1A237E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_0" value="&lt;b&gt;docker run&lt;/b&gt; — Run a container from an image" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_1" value="&lt;b&gt;docker ps&lt;/b&gt; — List running containers (`-a` for all)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="47" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_2" value="&lt;b&gt;docker stop / docker start&lt;/b&gt; — Stop or start a container" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_3" value="&lt;b&gt;docker rm&lt;/b&gt; — Remove a container" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_4" value="&lt;b&gt;docker images&lt;/b&gt; — List local images" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_5" value="&lt;b&gt;docker pull&lt;/b&gt; — Download an image from a registry" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="137" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_6" value="&lt;b&gt;docker build&lt;/b&gt; — Build an image from a Dockerfile" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="167" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_7" value="&lt;b&gt;docker exec -it &lt;ctr&gt; sh&lt;/b&gt; — Open a shell inside a running container" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="197" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_8" value="&lt;b&gt;docker logs &lt;ctr&gt;&lt;/b&gt; — Show the logs of a container" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="227" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_9" value="&lt;b&gt;docker compose up/down&lt;/b&gt; — Start or stop a Compose stack" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="257" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_10" value="&lt;b&gt;docker network ls&lt;/b&gt; — List Docker networks" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="287" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_10_11" value="&lt;b&gt;docker volume ls&lt;/b&gt; — List Docker volumes" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_10">
+                <mxGeometry x="0" y="302" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3_11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A237E;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b3">
+                <mxGeometry x="772" y="36" width="240" height="428" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3_11" value="Kubernetes" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1A237E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_0" value="&lt;b&gt;kubectl get &lt;res&gt;&lt;/b&gt; — List resources (pods, nodes, services, ...)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_1" value="&lt;b&gt;kubectl describe &lt;res&gt;&lt;/b&gt; — Show detailed information of a resource" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="62" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_2" value="&lt;b&gt;kubectl apply -f &lt;file&gt;&lt;/b&gt; — Create or update resources from a YAML manifest" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_3" value="&lt;b&gt;kubectl delete &lt;res&gt;&lt;/b&gt; — Delete a resource" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_4" value="&lt;b&gt;kubectl logs &lt;pod&gt;&lt;/b&gt; — Show the logs of a pod" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_5" value="&lt;b&gt;kubectl exec -it &lt;pod&gt; -- sh&lt;/b&gt; — Open a shell inside a pod" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="152" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_6" value="&lt;b&gt;kubectl port-forward &lt;pod&gt;&lt;/b&gt; — Forward a local port to a pod" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_7" value="&lt;b&gt;kubectl scale deploy &lt;name&gt; --replicas=N&lt;/b&gt; — Scale a deployment" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_8" value="&lt;b&gt;kubectl rollout status&lt;/b&gt; — Track the status of a rollout" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="242" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_9" value="&lt;b&gt;kubectl top node / kubectl top pod&lt;/b&gt; — Show node / pod resource usage" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="272" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_10" value="&lt;b&gt;kubectl config get-contexts&lt;/b&gt; — List kubeconfig contexts" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="302" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_11_11" value="&lt;b&gt;kubectl drain &lt;node&gt;&lt;/b&gt; — Safely evict pods from a node" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_11">
+                <mxGeometry x="0" y="332" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3_16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A237E;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b3">
+                <mxGeometry x="1026" y="36" width="240" height="428" as="geometry"/>
+                </mxCell>
+                <mxCell id="h3_16" value="Logs &amp; journals" style="text;html=1;align=center;verticalAlign=middle;fillColor=#1A237E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_0" value="&lt;b&gt;journalctl&lt;/b&gt; — Read the systemd journal logs" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_1" value="&lt;b&gt;journalctl -u &lt;svc&gt;&lt;/b&gt; — Show logs of a specific service" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="47" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_2" value="&lt;b&gt;journalctl -f&lt;/b&gt; — Follow logs in real time" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="77" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_3" value="&lt;b&gt;dmesg&lt;/b&gt; — Kernel ring buffer (boot and hardware messages)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_4" value="&lt;b&gt;tail&lt;/b&gt; — Show the last lines of a file (`-f` to follow)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="122" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_5" value="&lt;b&gt;head&lt;/b&gt; — Show the first lines of a file" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="152" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_6" value="&lt;b&gt;less&lt;/b&gt; — View files page by page, with search" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="167" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_7" value="&lt;b&gt;logrotate&lt;/b&gt; — Rotate, compress and delete old log files" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3_16_8" value="&lt;b&gt;logger&lt;/b&gt; — Write a message to the system log" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c3_16">
+                <mxGeometry x="0" y="212" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="b4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;arcSize=4;shadow=1;" vertex="1" parent="box">
+                <mxGeometry x="1062" y="868" width="768" height="429" as="geometry"/>
+                </mxCell>
+                <mxCell id="bt4" value="Misc" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#455A64;fillColor=none;strokeColor=none;spacingLeft=4;" vertex="1" parent="b4">
+                <mxGeometry x="0" y="0" width="768" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4_17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#455A64;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b4">
+                <mxGeometry x="10" y="36" width="240" height="383" as="geometry"/>
+                </mxCell>
+                <mxCell id="h4_17" value="Manuals" style="text;html=1;align=center;verticalAlign=middle;fillColor=#455A64;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_17_0" value="&lt;b&gt;man &lt;cmd&gt;&lt;/b&gt; — Show the manual page of a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_17_1" value="&lt;b&gt;info &lt;cmd&gt;&lt;/b&gt; — Show the info documentation of a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="47" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_17_2" value="&lt;b&gt;whatis &lt;cmd&gt;&lt;/b&gt; — One-line description of a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="77" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_17_3" value="&lt;b&gt;apropos &lt;keyword&gt;&lt;/b&gt; — Search manual pages by keyword" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="107" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_17_4" value="&lt;b&gt;&lt;cmd&gt; --help / &lt;cmd&gt; -h&lt;/b&gt; — Quick help of a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_17">
+                <mxGeometry x="0" y="137" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4_18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#455A64;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b4">
+                <mxGeometry x="264" y="36" width="240" height="383" as="geometry"/>
+                </mxCell>
+                <mxCell id="h4_18" value="Utilites" style="text;html=1;align=center;verticalAlign=middle;fillColor=#455A64;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_0" value="&lt;b&gt;grep&lt;/b&gt; — Search text patterns in files or output" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="32" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_1" value="&lt;b&gt;sed&lt;/b&gt; — Stream editor (search and replace in streams)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="62" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_2" value="&lt;b&gt;awk&lt;/b&gt; — Text processing and report generation" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="92" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_3" value="&lt;b&gt;sort&lt;/b&gt; — Sort lines of text" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="107" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_4" value="&lt;b&gt;uniq&lt;/b&gt; — Remove or report duplicate lines" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_5" value="&lt;b&gt;cut&lt;/b&gt; — Extract columns or fields from lines" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_6" value="&lt;b&gt;tr&lt;/b&gt; — Translate or delete characters" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="152" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_7" value="&lt;b&gt;wc&lt;/b&gt; — Count lines, words and characters" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="167" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_8" value="&lt;b&gt;cat&lt;/b&gt; — Concatenate and print files" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="182" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_9" value="&lt;b&gt;echo&lt;/b&gt; — Print a message or a variable" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="197" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_10" value="&lt;b&gt;xargs&lt;/b&gt; — Build and run commands from standard input" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_11" value="&lt;b&gt;watch&lt;/b&gt; — Run a command repeatedly and show the output" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="242" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_12" value="&lt;b&gt;tee&lt;/b&gt; — Write output to a file and to the screen" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="272" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_13" value="&lt;b&gt;which&lt;/b&gt; — Show the path of a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="302" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_14" value="&lt;b&gt;history&lt;/b&gt; — Show the command history" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="317" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_15" value="&lt;b&gt;alias&lt;/b&gt; — Create a shortcut for a command" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="332" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_18_16" value="&lt;b&gt;tmux / screen&lt;/b&gt; — Terminal multiplexer (multiple sessions)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_18">
+                <mxGeometry x="0" y="347" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4_19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#455A64;strokeWidth=2;arcSize=6;shadow=1;" vertex="1" parent="b4">
+                <mxGeometry x="518" y="36" width="240" height="383" as="geometry"/>
+                </mxCell>
+                <mxCell id="h4_19" value="System enviornment variables" style="text;html=1;align=center;verticalAlign=middle;fillColor=#455A64;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="0" width="240" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_0" value="&lt;b&gt;echo $VAR&lt;/b&gt; — Show the value of a variable" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="32" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_1" value="&lt;b&gt;env&lt;/b&gt; — Show all environment variables" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="47" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_2" value="&lt;b&gt;printenv &lt;VAR&gt;&lt;/b&gt; — Show the value of an environment variable" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="62" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_3" value="&lt;b&gt;export VAR=value&lt;/b&gt; — Set and export an environment variable" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="92" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_4" value="&lt;b&gt;unset VAR&lt;/b&gt; — Remove an environment variable" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="122" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_5" value="&lt;b&gt;set&lt;/b&gt; — Show shell and environment variables" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="137" width="240" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_6" value="&lt;b&gt;source &lt;file&gt;&lt;/b&gt; — Load variables from a file (e.g. `~/.bashrc`)" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="152" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_7" value="&lt;b&gt;/etc/environment&lt;/b&gt; — Global environment variables file" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="182" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4_19_8" value="&lt;b&gt;/etc/profile, ~/.bashrc, ~/.zshrc&lt;/b&gt; — Shell config files where variables are defined" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#212121;fontSize=9.5;whiteSpace=wrap;spacingLeft=8;spacingRight=8;spacingTop=1;" vertex="1" parent="c4_19">
+                <mxGeometry x="0" y="212" width="240" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
