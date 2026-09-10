@@ -12,6 +12,8 @@
     - [sysstat](#sysstat)
   - [Network](#network)
   - [System managed services (systemd)](#system-managed-services-systemd)
+  - [Docker](#docker)
+  - [Kubernetes](#kubernetes)
   - [Filesystem](#filesystem)
     - [File operations](#file-operations)
     - [Permissions \& ownership](#permissions--ownership)
@@ -155,6 +157,40 @@
 | `shutdown` | Shut down or restart the system |
 | `reboot` | Reboot the system |
 | `poweroff` | Power off the system |
+
+## Docker
+
+| Command | Description |
+| --- | --- |
+| `docker run` | Run a container from an image |
+| `docker ps` | List running containers (`-a` for all) |
+| `docker stop` / `docker start` | Stop or start a container |
+| `docker rm` | Remove a container |
+| `docker images` | List local images |
+| `docker pull` | Download an image from a registry |
+| `docker build` | Build an image from a Dockerfile |
+| `docker exec -it <ctr> sh` | Open a shell inside a running container |
+| `docker logs <ctr>` | Show the logs of a container |
+| `docker compose up/down` | Start or stop a Compose stack |
+| `docker network ls` | List Docker networks |
+| `docker volume ls` | List Docker volumes |
+
+## Kubernetes
+
+| Command | Description |
+| --- | --- |
+| `kubectl get <res>` | List resources (pods, nodes, services, ...) |
+| `kubectl describe <res>` | Show detailed information of a resource |
+| `kubectl apply -f <file>` | Create or update resources from a YAML manifest |
+| `kubectl delete <res>` | Delete a resource |
+| `kubectl logs <pod>` | Show the logs of a pod |
+| `kubectl exec -it <pod> -- sh` | Open a shell inside a pod |
+| `kubectl port-forward <pod>` | Forward a local port to a pod |
+| `kubectl scale deploy <name> --replicas=N` | Scale a deployment |
+| `kubectl rollout status` | Track the status of a rollout |
+| `kubectl top node` / `kubectl top pod` | Show node / pod resource usage |
+| `kubectl config get-contexts` | List kubeconfig contexts |
+| `kubectl drain <node>` | Safely evict pods from a node |
 
 ## Filesystem
 
